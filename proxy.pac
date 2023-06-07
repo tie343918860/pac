@@ -3,5 +3,5 @@ function FindProxyForURL(url, host) {
     if (isPlainHostName(host)) {
         return "PROXY 127.0.0.1:24100";
     }
-    return "PROXY 127.0.0.1:24100; DIRECT;"
+    return "PROXY 127.0.0.1:24100; DIRECT";
 }
